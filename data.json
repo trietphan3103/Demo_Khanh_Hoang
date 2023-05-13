@@ -1,0 +1,194 @@
+[
+  {
+    "book_id": 1,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg",
+    "author": "Colleen Hoover",
+    "description": "In the sequel to “It Ends With Us,” Lily deals with her jealous ex-husband as she reconnects with her first boyfriend.",
+    "price": "12.43",
+    "title": "IT STARTS WITH US"
+  },
+  {
+    "book_id": 2,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg",
+    "author": "Colleen Hoover",
+    "description": "A battered wife raised in a violent home attempts to halt the cycle of abuse.",
+    "price": "18.43",
+    "title": "IT ENDS WITH US"
+  },
+  {
+    "book_id": 3,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg",
+    "author": "Bonnie Garmus",
+    "description": "A scientist and single mother living in California in the 1960s becomes a star on a TV cooking show.",
+    "price": "11.43",
+    "title": "LESSONS IN CHEMISTRY"
+  },
+  {
+    "book_id": 4,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781524798628.jpg",
+    "author": "Taylor Jenkins Reid",
+    "description": "A fictional oral history charting the rise and fall of a ’70s rock ’n’ roll band.",
+    "price": "10.43",
+    "title": "DAISY JONES & THE SIX"
+  },
+  {
+    "book_id": 5,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781501161933.jpg",
+    "author": "Taylor Jenkins Reid",
+    "description": "A movie icon recounts stories of her loves and career to a struggling magazine writer.",
+    "price": "15.99",
+    "title": "THE SEVEN HUSBANDS OF EVELYN HUGO"
+  },
+  {
+    "book_id": 6,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9780063020894.jpg",
+    "author": "Kate Morton",
+    "description": "An unemployed journalist connects events in a true-crime book, which details a long-buried murder in 1959 in South Australia, to her own family.",
+    "price": "10.99",
+    "title": "HOMECOMING"
+  },
+  {
+    "book_id": 7,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9780399590948.jpg",
+    "author": "Curtis Sittenfeld",
+    "description": "A beach house, summer love and enduring friendships.",
+    "price": "10.99",
+    "title": "THE SUMMER I TURNED PRETTY TRILOGY"
+  },
+  {
+    "book_id": 8,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781338885101.jpg",
+    "author": "Alice Oseman",
+    "description": "Nick and Charlie question whether their love is strong enough to survive being apart when Nick leaves for university.",
+    "price": "19.99",
+    "title": "NICK AND CHARLIE"
+  },
+  {
+    "book_id": 9,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781250857439.jpg",
+    "author": "Rebecca Ross",
+    "description": "Two young rival journalists find love through a magical connection.",
+    "price": "20.99",
+    "title": "DIVINE RIVALS"
+  },
+  {
+    "book_id": 10,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9780063240803.jpg",
+    "author": "Adam Silvera",
+    "description": "In this prequel to \"They Both Die at the End,\" Orion and Valentino attend the premiere of Death-Cast in Times Square.",
+    "price": "10.99",
+    "title": "THE FIRST TO DIE AT THE END"
+  },
+  {
+    "book_id": 11,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781419760860.jpg",
+    "author": "Alex Aster",
+    "description": "Every 100 years the island of Lightlark appears and a deadly competition called the Centennial takes place.",
+    "price": "10.99",
+    "title": "LIGHTLARK"
+  },
+  {
+    "book_id": 12,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9780316519045.jpg",
+    "author": "Holly Black",
+    "description": "Runaway Queen Suren and Prince Oak embark on a deadly and dangerous mission to the north.",
+    "price": "11.99",
+    "title": "THE STOLEN HEIR"
+  },
+  {
+    "book_id": 13,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781547613212.jpg",
+    "author": "Trang Thanh Tran",
+    "description": "Jade Nguyen travels to Vietnam with her younger sister, Lily, to visit their father who’s restoring an old French colonial house which is haunted.",
+    "price": "11.99",
+    "title": "SHE IS A HAUNTING"
+  },
+  {
+    "book_id": 14,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg",
+    "author": "Bonnie Garmus",
+    "description": "A scientist and single mother living in California in the 1960s becomes a star on a TV cooking show. Read by Miranda Raison, Pandora Sykes and the author. 11 hours, 55 minutes unabridged.",
+    "price": "12.99",
+    "title": "LESSONS IN CHEMISTRY"
+  },
+  {
+    "book_id": 15,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9780063204157.jpg",
+    "author": "Shel Van Pelt",
+    "description": "A widow working the night shift at the Sowell Bay Aquarium is aided in solving a mystery by a giant Pacific octopus living there. Read by Marin Ireland and Michael Urie. 11 hours, 16 minutes unabridged.",
+    "price": "9.99",
+    "title": "REMARKABLY BRIGHT CREATURES"
+  },
+  {
+    "book_id": 16,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg",
+    "author": "Colleen Hoover",
+    "description": "A battered wife raised in a violent home attempts to halt the cycle of abuse. Read by Olivia Song. 11 hours, 11 minutes unabridged.",
+    "price": "16.59",
+    "title": "IT ENDS WITH US"
+  },
+  {
+    "book_id": 17,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781984879295.jpg",
+    "author": "Jojo Moyes",
+    "description": "Drastic changes and a pair of six-inch high Christian Louboutin red crocodile shoes shake up the lives of two women. Read by Daisy Ridley. 12 hours, 22 minutes unabridged.",
+    "price": "14.59",
+    "title": "SOMEONE ELSE'S SHOES"
+  },
+  {
+    "book_id": 18,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781538748367.jpg",
+    "author": "Harlan Coben",
+    "description": "A man imprisoned for murdering his 3-year-old son becomes convinced his son is still alive and plans an escape. Read by Steven Weber. 10 hours, 16 minutes unabridged.",
+    "price": "13.59",
+    "title": "I WILL FIND YOU"
+  },
+  {
+    "book_id": 19,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9780063251922.jpg",
+    "author": "Barbara Kingsolver",
+    "description": "A reimagining of Charles Dickens’s “David Copperfield” set in the mountains of southern Appalachia. Read by Charlie Thurston. 21 hours, 3 minutes unabridged.",
+    "price": "21.39",
+    "title": "DEMON COPPERHEAD"
+  },
+  {
+    "book_id": 20,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg",
+    "author": "Colleen Hoover",
+    "description": "In the sequel to “It Ends With Us,” Lily deals with her jealous ex-husband as she reconnects with her first boyfriend. Read by Colin Donnell and Olivia Song. 8 hours, 40 minutes unabridged.",
+    "price": "11.39",
+    "title": "IT STARTS WITH US"
+  },
+  {
+    "book_id": 21,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781791392796.jpg",
+    "author": "Colleen Hoover",
+    "description": "Lowen Ashleigh is hired by the husband of an injured writer to complete her popular series and uncovers a horrifying truth. Read by Vanessa Johansson and Amy Landon. 8 hours, 10 minutes unabridged.",
+    "price": "11.39",
+    "title": "VERITY"
+  },
+  {
+    "book_id": 22,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781338846621.jpg",
+    "author": "Dav Pilkey",
+    "description": "The fourth book in the Cat Kid Comic Club series. After doing their chores, baby frogs work together to create more mini-comics.",
+    "price": "16.39",
+    "title": "COLLABORATIONS"
+  },
+  {
+    "book_id": 23,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781974736287.jpg",
+    "author": "Tatsuya Endo",
+    "description": "A gang of assassins and bombs planted throughout a luxury cruiser put Loid, Anya and Yor in harm’s way. ",
+    "price": "11.99",
+    "title": "SPY X FAMILY, VOL. 9"
+  },
+  {
+    "book_id": 24,
+    "book_image": "https://storage.googleapis.com/du-prd/books/images/9781338730890.jpg",
+    "author": "Tui T. Sutherland.",
+    "description": "The sixth book in the Wings of Fire graphic novel series; adapted by Barry Deutsch and Rachel Swirsky.",
+    "price": "19.99",
+    "title": "MOON RISING"
+  }
+]

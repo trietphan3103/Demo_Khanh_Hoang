@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<link rel="icon" href="img/book-shop-bookstore-book-store-icon-4-removebg-preview.png">
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="top-menu">
+          <div>
+              <img style="height: 60px;" src="./img/Book_Logomoose-removebg-preview.png" alt="lennin" />
+          </div>
+          <div class="page">
+              <a href="./index.html">Home</a>
+              <a href="#">Shopping</a>
+              <a href="#">About us</a>
+              <a href="./FAQs.html">FAQs</a>
+          </div>
+          <div class="icon">
+              <i style="color: rgb(255, 255, 255);" class="fa-solid fa-magnifying-glass"></i>
+              <a href="../cart.html">
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              
+              <div class="dropdown">
+                  <button class="dropbtn"> 
+                      <i class="fa-solid fa-user" id="users"></i>
+                      <div class="dropdown-content">
+                          <a href="Log in.html">Log in</a>
+                          <a href="Sign in.html">Sign up</a>
+                      </div>
+                  </button>                  
+              </div>                
+              <div class="lines"></div>
+              <i style="color: white;" class="fa-solid fa-globe"></i>
+          </div>
+      </div>  
+      
+  </div>
+    <!-- Content Site -->
+    <div style="padding-top: 90px;" class="cart">
+        <div class="container">
+            <div class="table-product-cart" role="region" aria-labelledby="table-product-cart-1" tabindex="0">
+                <div class="form-heading sr-md">
+                  <h2 id="table-product-cart-1" class="form-heading__heading h3" title="Products">
+                   Books
+                  </h2>
+                </div>
+                <table class="table">
+                  <thead class="thead-light">
+                    <tr>
+                      <th class="table-product-cart__product-column h3" >Book</th>
+                      <th class="table-product-cart__price-column h3" >Price</th>
+                      <th class="table-product-cart__quantity-column h3">Quantity</th>
+                      <th class="table-product-cart__total-column h3">Total</th>
+                      <th class="table-product-cart__addition-column h3">
+                        <span class="sr-only">Buy again</span>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody id="render-cart-book">
+                    <!-- <tr>
+                      <td class="table-product-cart__product-column">
+                        <div class="product">
+                          <div class="product__image">
+                            <img class="img-fluid" src="//fakeimg.pl/110x110/" alt="">
+                          </div>
+                          <div class="product__content">
+                            <p>
+                              <strong class="h3">Lorem ipsum dolor sit amet</strong><br>
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="table-product-cart__price-column">
+                        <span class="table-product-cart__thead-sm">Price</span>
+                        59,95 €
+                      </td>
+                      <td class="table-product-cart__quantity-column">
+                        <label for="product-quantity-22513575" class="table-product-cart__thead-sm">Quantity</label>
+                        1
+                      </td>
+                      <td class="table-product-cart__total-column">
+                        <span class="table-product-cart__thead-sm">Total</span>
+                        59,95 €
+                      </td>
+                      <td class="table-product-cart__addition-column">
+                        <span class="sr-only">The product isn't available.</span>
+                      </td>
+                    </tr> -->
+                  </tbody>
+                </table>
+                <dl class="table-product-cart-summary">
+                  <div class="table-product-cart-summary__item table-product-cart-summary__item--subtotal">
+                    <dt style="font-size: 22 px">Subtotal</dt>
+                    <dd id="subtotal"></dd>
+                  </div>
+                  <div class="table-product-cart-summary__item">
+                    <dt><a href="#" target="_blank" style="font-size: 22 px;">Shipping costs</a></dt>
+                    <dd>0,00 €</dd>
+                  </div>
+                  <div class="table-product-cart-summary__item table-product-cart-summary__item--total h3">
+                    <dt style="font-size: 22 px">Grand total</dt>
+                    <dd id="total"></dd>
+                  </div>
+                  <div style="text-align: right;">
+                    <button class="Paying" onclick="Delete()">Thanh Toán</button>
+                    <div id="noti-mess"></div>
+                  </div>
+                </dl>
+              </div>
+        </div>
+      </div>
+        <!-- Site footer -->
+        <footer class="site-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <h6>About</h6>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                  iusto, excepturi ratione ullam, officia atque fugit, labore
+                  blanditiis id similique voluptas. Libero eveniet voluptate iure
+                  molestias perspiciatis repellendus dolore quia. Lorem ipsum dolor
+                  sit amet consectetur adipisicing elit. Aliquid ullam quisquam
+                  ducimus quos eum animi doloribus reiciendis aperiam facilis!
+                  Officia ipsa saepe inventore velit aperiam veniam quos corporis
+                  pariatur omnis?
+                </p>
+              </div>
+    
+              <div class="col-xs-6 col-md-3">
+                <h6>Categories</h6>
+                <ul class="footer-links">
+                  <li><a href="">Lorem, ipsum dolor sit </a></li>
+                  <li>
+                    <a href="#">fugit eum mollitia eaque pariatur perferendis?</a>
+                  </li>
+                  <li>
+                    <a href="#">m mollitia eaque pariatur</a>
+                  </li>
+                  <li>
+                    <a href="#">pariatur perferendis?</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorem ipsum dolor sit amet </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      nostrum accusamus et minima architecto cupiditate.</a
+                    >
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="col-xs-6 col-md-3">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li>
+                    <a href="#">Contribute</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li><a href="#">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">
+                  Copyright &copy; 2023 All Rights Reserved
+                  <a href="#"></a>.
+                </p>
+              </div>
+    
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                  <li>
+                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+  </body>
+  <script src="cart.js"></script>
+</html>

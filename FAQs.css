@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  a:hover {
+    text-decoration: none !important;
+  }
+
+.top-menu {
+    display: flex;
+    height: 60px;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between ;
+    border-bottom: solid 1px;
+    position: fixed;
+    background-color: rgb(76, 82, 87);
+    z-index: 99999;
+    font-size: 20px;
+  }
+  
+  .top-menu .page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 35%;
+  }
+  
+  .top-menu .page a {
+    color: white;
+    /* text-decoration: none; */
+  }
+  .top-menu .page a:hover {
+    color: rgb(209, 171, 153);
+  }
+  
+  .top-menu .icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .top-menu .icon a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .top-menu .icon i {
+    padding: 0 16px;
+    cursor: pointer;
+    font-size: 19px;
+  }
+
+/* .faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+} */
+.faq-container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hr-line{
+  width: 64%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 64%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   font-size: 20px;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+
+.site-footer {
+    margin-top: 60px;
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    height: 380px;
+  }
+  .site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+  }
+  .site-footer hr.small {
+    margin: 20px 0;
+  }
+  .site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+  }
+  .site-footer a {
+    color: #737373;
+  }
+  .site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  .footer-links {
+    padding-left: 0;
+    list-style: none;
+  }
+  .footer-links li {
+    display: block;
+  }
+  .footer-links a {
+    color: #737373;
+  }
+  .footer-links a:active,
+  .footer-links a:focus,
+  .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  .footer-links.inline li {
+    display: inline-block;
+  }
+  .site-footer .social-icons {
+    text-align: right;
+  }
+  .site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d;
+  }
+  .copyright-text {
+    margin: 0;
+  }
+  @media (max-width: 991px) {
+    .site-footer [class^="col-"] {
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    .site-footer {
+      padding-bottom: 0;
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+      text-align: center;
+    }
+  }
+  .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  .social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe;
+  }
+  .social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+  }
+  .social-icons a.facebook:hover {
+    background-color: #3b5998;
+  }
+  .social-icons a.twitter:hover {
+    background-color: #00aced;
+  }
+  .social-icons a.linkedin:hover {
+    background-color: #007bb6;
+  }
+  .social-icons a.dribbble:hover {
+    background-color: #ea4c89;
+  }
+  @media (max-width: 767px) {
+    .social-icons li.title {
+      display: block;
+      margin-right: 0;
+      font-weight: 600;
+    }
+  }

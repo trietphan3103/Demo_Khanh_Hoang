@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="icon" href="../img/book-shop-bookstore-book-store-icon-4-removebg-preview.png">
+    <link rel="stylesheet" href="./Log in.css" class="">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="container">
+        <div class="top-menu">
+            <div>
+                <img style="height: 60px;" src="../img/Book_Logomoose-removebg-preview.png" alt="lennin" />
+            </div>
+            <div class="page">
+                <a href="../index.html">Home</a>
+                <a href="#">Shopping</a>
+                <a href="#">About us</a>
+                <a href="../FAQs.html">FAQs</a>
+            </div>
+            <div class="icon">
+                <i style="color: rgb(255, 255, 255);" class="fa-solid fa-magnifying-glass"></i>
+                <a href="../cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                
+                <div class="dropdown">
+                    <button class="dropbtn"> 
+                        <i class="fa-solid fa-user" id="users"></i>
+                        <div class="dropdown-content">
+                            <a href="Log in.html">Log in</a>
+                            <a href="Sign in.html">Sign up</a>
+                        </div>
+                    </button>                  
+                </div>                
+                <div class="lines"></div>
+                <i style="color: white;" class="fa-solid fa-globe"></i>
+            </div>
+        </div>  
+        
+    </div>
+    <main class="main">
+        <div class="login-wrap">
+            <h1 class="title">Đăng nhập</h1>
+            <form action="" id="login-form">
+                <input type="text" placeholder="Email" name="email" class="email-input input">
+                <input type="pas" name="password" placeholder="Password" class="password-input input">
+                <a href="Sign in.html" class="register-link">Không có tài khoản?</a>
+                <button class="submit-btn">Đăng nhập</button>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="login.js"></script>
+</html>
